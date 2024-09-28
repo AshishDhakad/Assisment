@@ -1,0 +1,110 @@
+
+.employee-container {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .header-title {
+    margin: 0;
+    font-size: 18px;
+    background-color: yellow;
+    font-weight: bold;
+  }
+  
+  .total-count {
+    margin-right: 20px;
+    font-weight: 300;
+  }
+  
+  .create-employee-button {
+    padding: 8px 15px;
+    background-color: lightgreen;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .search-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .search-button {
+    background-color: lightblue;
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    margin-left: 10px;
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ddd;
+  }
+  
+  
+  .employee-table-container {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .employee-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .employee-table td {
+    background-color: #fff;
+  }
+  
+  .employee-image {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .employee-email {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .edit-button, .delete-button {
+    background-color: #f4f4f4;
+    border: none;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #c2e7ff;
+  }
+  
+  .delete-button:hover {
+    background-color: #f8c2c2;
+  }
+  

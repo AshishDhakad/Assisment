@@ -1,0 +1,29 @@
+.admin-panel {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Content Styling */
+main {
+  width: 100vw; 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: #ecf0f1; 
+  color: #2c3e50; 
+  text-align: center; 
+}
+
+main h1 {
+  margin-bottom: 10px; 
+  font-size: 2em; 
+}
+
+main p {
+  font-size: 1.1em; 
+  line-height: 1.6; 
+}
